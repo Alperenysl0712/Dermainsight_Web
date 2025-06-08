@@ -1,0 +1,81 @@
+﻿body, html {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(225,225,225);
+    display: flex;
+}
+
+.rightSection {
+    height: 100vh;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-left: gray 1px dotted;
+    row-gap: 30px;
+}
+
+.leftSection {
+    height: 100vh;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bodyCard {
+    width: 90%;
+    height: 250px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+    .bodyCard:hover {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    }
+
+.disImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+    object-position: bottom;
+    overflow: hidden;
+}
+
+#3dModelAreaDiv {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.model-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.model-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 150px;
+    height: auto;
+    z-index: 2;
+}

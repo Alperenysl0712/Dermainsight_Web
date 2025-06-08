@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Patient";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+@model List<DiseaseInfo>
+
+<style>
+    .tableArea {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    }
+</style>
+
+<div class="table-responsive text-center tableArea">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Doktor İsmi</th>
+                <th>Hastalık İsmi</th>
+                <th>Teşhis Tarihi</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(DiseaseInfo diseaseInfo in Model)
+            {
+                <tr>
+                    <td>@($"Dr. {diseaseInfo.Doctor.Name} {diseaseInfo.Doctor.Surname}")</td>
+                    <td>@(DiseaseTr.disTrList[diseaseInfo.Disease.DiseaseName])</td>
+                    <td>@diseaseInfo.DiagnosisDate?.ToString("dd.MM.yyyy")</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>

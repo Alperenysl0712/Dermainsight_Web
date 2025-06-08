@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Doctor";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+@model DiseaseInfoModel
+
+<style>
+    .tableArea {
+    padding: 30px;
+    }
+
+</style>
+
+<form asp-controller="DiseaseInfo" asp-action="Doctor" method="post">
+    <select name="patientId" class="my-3 form-select" style="width: 400px;" onchange="this.form.submit()" id="patientSelect">
+        <option value="" selected disabled>Hastalar</option>
+        @foreach (Users users in Model.patientList!)
+        {
+            <option value="@users.Id">@($"{users.Name} {users.Surname}")</option>
+        }
+    </select>
+</form>
+<div class="table-responsive text-center w-100 tableArea">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Hasta Adı</th>
+                <th>Hastalık İsmi</th>
+                <th>Teşhis Tarihi</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(DiseaseInfo diseaseInfo in Model.diseaseInfos!)
+            {
+                <tr>
+                    <td>@($"{diseaseInfo.Patient.Name} {diseaseInfo.Patient.Surname}")</td>
+                    <td>@(DiseaseTr.disTrList[diseaseInfo.Disease.DiseaseName])</td>
+                    <td>@diseaseInfo.DiagnosisDate?.ToString("dd.MM.yyyy")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,32 @@
+﻿.userInfo {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+    margin-bottom: 15px;
+}
+
+.userTexts {
+    width: 270px;
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 150px;
+    margin-top: 50px;
+}
+
+.btn {
+    width: 120px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,30 @@
+﻿.uploadImgSec {
+    width: 70vw;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    border: black 3px dashed;
+    border-radius: 15px;
+}
+
+.resultSec {
+    width: 98vw;
+    flex-grow: 1;
+    display: none;
+}
+
+.validationSec {
+    width: 70vw;
+    height: 130px;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 3px cadetblue double;
+    align-items: center;
+    align-content: center;
+    row-gap: 10px;
+    border-radius: 15px;
+}

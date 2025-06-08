@@ -1,0 +1,25 @@
+﻿body, html {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(225,225,225);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customNav {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(200,199,199);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+.contentArea {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

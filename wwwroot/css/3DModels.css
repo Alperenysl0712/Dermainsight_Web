@@ -1,0 +1,19 @@
+﻿.contentArea {
+    align-items:flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-content: flex-start;
+    row-gap: 30px;
+}
+
+.diseaseCard {
+    width: 45%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(246, 246, 246);
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+}

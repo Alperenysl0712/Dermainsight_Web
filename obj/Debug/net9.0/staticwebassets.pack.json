@@ -1,0 +1,649 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Dermainsight.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Dermainsight.46kmlef9wj.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\blender\\bacak.glb",
+      "PackagePath": "staticwebassets\\blender\\bacak.glb"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\blender\\kafa.glb",
+      "PackagePath": "staticwebassets\\blender\\kafa.glb"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\blender\\kol.glb",
+      "PackagePath": "staticwebassets\\blender\\kol.glb"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\css\\3DModelDetail.css",
+      "PackagePath": "staticwebassets\\css\\3DModelDetail.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\css\\3DModels.css",
+      "PackagePath": "staticwebassets\\css\\3DModels.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\css\\Ai.css",
+      "PackagePath": "staticwebassets\\css\\Ai.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\css\\Disease.css",
+      "PackagePath": "staticwebassets\\css\\Disease.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\css\\LayoutHome.css",
+      "PackagePath": "staticwebassets\\css\\LayoutHome.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\css\\MainMenu.css",
+      "PackagePath": "staticwebassets\\css\\MainMenu.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\css\\Register.css",
+      "PackagePath": "staticwebassets\\css\\Register.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\dist\\main.js",
+      "PackagePath": "staticwebassets\\dist\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\img\\ayak.png",
+      "PackagePath": "staticwebassets\\img\\ayak.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\img\\bacak.png",
+      "PackagePath": "staticwebassets\\img\\bacak.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\img\\blender_logo.png",
+      "PackagePath": "staticwebassets\\img\\blender_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\img\\el.png",
+      "PackagePath": "staticwebassets\\img\\el.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\img\\ense.png",
+      "PackagePath": "staticwebassets\\img\\ense.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\img\\logout.png",
+      "PackagePath": "staticwebassets\\img\\logout.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\img\\omuz.png",
+      "PackagePath": "staticwebassets\\img\\omuz.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\img\\sag_yanak.png",
+      "PackagePath": "staticwebassets\\img\\sag_yanak.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\img\\skin.jpg",
+      "PackagePath": "staticwebassets\\img\\skin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\img\\skin_baked.jpg",
+      "PackagePath": "staticwebassets\\img\\skin_baked.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\img\\sol_yanak.png",
+      "PackagePath": "staticwebassets\\img\\sol_yanak.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\js\\3DModelDetail.js",
+      "PackagePath": "staticwebassets\\js\\3DModelDetail.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\js\\Ai.js",
+      "PackagePath": "staticwebassets\\js\\Ai.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\js\\chart.js",
+      "PackagePath": "staticwebassets\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\0c0aesla.qw2.png",
+      "PackagePath": "staticwebassets\\uploads\\0c0aesla.qw2.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\0ks1g5ga.oim.png",
+      "PackagePath": "staticwebassets\\uploads\\0ks1g5ga.oim.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\0lwmoz4k.nwv.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0lwmoz4k.nwv.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\0rlmfban.t4i.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0rlmfban.t4i.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\1wdwkwip.zfp.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1wdwkwip.zfp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\2mcnlhqt.lnf.png",
+      "PackagePath": "staticwebassets\\uploads\\2mcnlhqt.lnf.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\2os0vehm.qkn.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2os0vehm.qkn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\4w3bffo2.kvq.jpg",
+      "PackagePath": "staticwebassets\\uploads\\4w3bffo2.kvq.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\5fgnceqb.col.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5fgnceqb.col.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\az3epgwv.imd.jpg",
+      "PackagePath": "staticwebassets\\uploads\\az3epgwv.imd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\bqmw3ezu.4rl.png",
+      "PackagePath": "staticwebassets\\uploads\\bqmw3ezu.4rl.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\bxpc0t0x.beh.jpg",
+      "PackagePath": "staticwebassets\\uploads\\bxpc0t0x.beh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\cakit2mm.4c4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\cakit2mm.4c4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\ce00ccel.5hu.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ce00ccel.5hu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\cfldf4hj.4us.jpg",
+      "PackagePath": "staticwebassets\\uploads\\cfldf4hj.4us.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\dziviscx.rxo.png",
+      "PackagePath": "staticwebassets\\uploads\\dziviscx.rxo.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\elgfyaak.w4w.jpg",
+      "PackagePath": "staticwebassets\\uploads\\elgfyaak.w4w.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\embffoti.q33.jpg",
+      "PackagePath": "staticwebassets\\uploads\\embffoti.q33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\fbw45wdn.fmi.jpg",
+      "PackagePath": "staticwebassets\\uploads\\fbw45wdn.fmi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\fwq41kkw.abx.jpg",
+      "PackagePath": "staticwebassets\\uploads\\fwq41kkw.abx.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\gg1qhf14.dqh.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gg1qhf14.dqh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\gnjtun5s.yft.jpg",
+      "PackagePath": "staticwebassets\\uploads\\gnjtun5s.yft.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\gwldleyx.byf.png",
+      "PackagePath": "staticwebassets\\uploads\\gwldleyx.byf.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\ha3ckg0x.tlf.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ha3ckg0x.tlf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\hj1axpy1.ogi.jpg",
+      "PackagePath": "staticwebassets\\uploads\\hj1axpy1.ogi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\hxguf5va.dha.jpg",
+      "PackagePath": "staticwebassets\\uploads\\hxguf5va.dha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\ibd4hrbe.tpi.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ibd4hrbe.tpi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\jrlamiva.wmx.jpg",
+      "PackagePath": "staticwebassets\\uploads\\jrlamiva.wmx.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\ken453of.e0d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ken453of.e0d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\koa41s5a.akh.png",
+      "PackagePath": "staticwebassets\\uploads\\koa41s5a.akh.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\kqal5eic.q4o.jpg",
+      "PackagePath": "staticwebassets\\uploads\\kqal5eic.q4o.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\lknkyqlu.mvz.jpg",
+      "PackagePath": "staticwebassets\\uploads\\lknkyqlu.mvz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\lu5w3sot.jkb.jpg",
+      "PackagePath": "staticwebassets\\uploads\\lu5w3sot.jkb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\m1yuqpu3.irc.png",
+      "PackagePath": "staticwebassets\\uploads\\m1yuqpu3.irc.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\mfo1ffz3.3qw.jpg",
+      "PackagePath": "staticwebassets\\uploads\\mfo1ffz3.3qw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\n3uxh1vp.pmt.jpg",
+      "PackagePath": "staticwebassets\\uploads\\n3uxh1vp.pmt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\nq2hesyw.xex.jpg",
+      "PackagePath": "staticwebassets\\uploads\\nq2hesyw.xex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\oakxiy53.kxy.png",
+      "PackagePath": "staticwebassets\\uploads\\oakxiy53.kxy.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\objhrmpo.31n.png",
+      "PackagePath": "staticwebassets\\uploads\\objhrmpo.31n.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\oeoxtowr.pxs.jpg",
+      "PackagePath": "staticwebassets\\uploads\\oeoxtowr.pxs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\py0pausq.s2o.jpg",
+      "PackagePath": "staticwebassets\\uploads\\py0pausq.s2o.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\qez0ehen.xos.jpg",
+      "PackagePath": "staticwebassets\\uploads\\qez0ehen.xos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\qfjz1ze1.qcd.jpg",
+      "PackagePath": "staticwebassets\\uploads\\qfjz1ze1.qcd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\rgrb1y52.ixy.png",
+      "PackagePath": "staticwebassets\\uploads\\rgrb1y52.ixy.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\rxifk0y2.eju.png",
+      "PackagePath": "staticwebassets\\uploads\\rxifk0y2.eju.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\smhtzkyk.dr4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\smhtzkyk.dr4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\syctip4p.jmm.jpg",
+      "PackagePath": "staticwebassets\\uploads\\syctip4p.jmm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\t0tcbniv.0r0.jpg",
+      "PackagePath": "staticwebassets\\uploads\\t0tcbniv.0r0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\to50irwl.a20.jpg",
+      "PackagePath": "staticwebassets\\uploads\\to50irwl.a20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\tukjgv5z.pro.png",
+      "PackagePath": "staticwebassets\\uploads\\tukjgv5z.pro.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\u3qrxsy3.sc0.jpg",
+      "PackagePath": "staticwebassets\\uploads\\u3qrxsy3.sc0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\vgxooglx.p04.jpg",
+      "PackagePath": "staticwebassets\\uploads\\vgxooglx.p04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\vgy5hwi4.zza.png",
+      "PackagePath": "staticwebassets\\uploads\\vgy5hwi4.zza.png"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\vsdnbduf.p51.jpg",
+      "PackagePath": "staticwebassets\\uploads\\vsdnbduf.p51.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\wghjexml.iwx.jpg",
+      "PackagePath": "staticwebassets\\uploads\\wghjexml.iwx.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\wlbfv054.rg4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\wlbfv054.rg4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\wppw0a3f.vw0.jpg",
+      "PackagePath": "staticwebassets\\uploads\\wppw0a3f.vw0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\wre5wr2j.gq2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\wre5wr2j.gq2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\wt54mwnu.lkw.jpg",
+      "PackagePath": "staticwebassets\\uploads\\wt54mwnu.lkw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\xex5ncvt.thk.jpg",
+      "PackagePath": "staticwebassets\\uploads\\xex5ncvt.thk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\xjfbx2xq.4lp.jpg",
+      "PackagePath": "staticwebassets\\uploads\\xjfbx2xq.4lp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\ypajl220.cvs.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ypajl220.cvs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\yszkuzhh.j4q.jpg",
+      "PackagePath": "staticwebassets\\uploads\\yszkuzhh.j4q.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\ziwstrzm.ixk.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ziwstrzm.ixk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\zkocxwad.iq1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\zkocxwad.iq1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alper\\Desktop\\Tez\\Web\\Dermainsight\\wwwroot\\uploads\\zqlrixn1.onj.jpg",
+      "PackagePath": "staticwebassets\\uploads\\zqlrixn1.onj.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Dermainsight.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Dermainsight.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Dermainsight.props",
+      "PackagePath": "build\\Dermainsight.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Dermainsight.props",
+      "PackagePath": "buildMultiTargeting\\Dermainsight.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Dermainsight.props",
+      "PackagePath": "buildTransitive\\Dermainsight.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

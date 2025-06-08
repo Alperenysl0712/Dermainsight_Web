@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    String? errorMsg = ViewBag.Errormessage;
+}
+@model Users
+
+<link href="~/css/register.css" rel="stylesheet" />
+<div class="registerArea">
+    <h2 class="py-1">Yeni Kullanıcı</h2>
+    <form method="post" class="userSection">
+        <div class="userData">
+            <h5 style="margin: 0;">Adı:</h5><input class="usertInputs form-control" type="text" name="Name"/>
+        </div>
+        <div class="userData">
+            <h5 style="margin: 0;">Soyadı:</h5><input class="usertInputs form-control" type="text" name="Surname" />
+        </div>
+        <div class="userData">
+            <h5 style="margin: 0;">E-posta:</h5><input class="usertInputs form-control" type="email" name="Email" />
+        </div>
+        <div class="userData">
+            <h5 style="margin: 0;">Kullanıcı Tipi:</h5><select class="usertInputs form-select py-0" name="UserType">
+                <option value="Hasta">Hasta</option>
+                <option value="Doktor">Doktor</option>
+            </select>
+        </div>
+        <div class="userData">
+            <h5 style="margin: 0;">Telefon No:</h5><input class="usertInputs form-control" type="tel" name="Phone" />
+        </div>
+        <div class="userData">
+            <h5 style="margin: 0;">Kullanıcı Adı:</h5><input class="usertInputs form-control" type="text" name="Username" />
+        </div>
+        <div class="userData">
+            <h5 style="margin: 0;">Parola:</h5><input class="usertInputs form-control" type="password" name="pass"/>
+        </div>
+        <div class="userData">
+            <h5 style="margin: 0;">Tekrar Parola:</h5><input class="usertInputs form-control" type="password" name="password_repeat"/>
+        </div>
+        <button class="btn btn-light" type="submit">Kayıt Ol</button>
+        <span>Hesabınız bulunuyor mu?<a class="ms-2" asp-action="Login">Giriş Yap</a></span>
+    </form>
+</div>
+
+<script>
+    var errMsg = '@Html.Raw(errorMsg)';
+
+    if(errMsg !== ""){
+        alert(errMsg);
+    }
+
+</script>

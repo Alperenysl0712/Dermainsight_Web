@@ -1,0 +1,83 @@
+﻿@using Newtonsoft.Json
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+<link href="~/css/disease.css" rel="stylesheet" />
+
+@model DiseaseModel
+
+<section class="flex-grow-1 w-100 contentArea">
+    <form method="post" onsubmit="return validateForm()" class="d-flex flex-column justify-content-center align-items-center w-75 h-100">
+        <div class="userInfo">
+            <h5 style="margin: 0;">Hasta Adı :</h5><select id="patSelect" name="PatientId" class="form-select userTexts">
+				<option value="0">Seçiniz</option>
+				@foreach (var user in Model.userList ?? [])
+				{
+                    <option value="@user.Id">@($"{user.Name} {user.Surname}")</option>
+				}
+            </select>
+        </div>
+        <div class="userInfo">
+            <h5 style="margin: 0;">Hastalık Adı :</h5><select name="DiseaseId" class="form-select userTexts" id="disSelect">
+                <option value="0">Seçiniz</option>
+                @foreach (var disease in Model.diseaseList ?? [])
+                {
+                    <option value="@disease.Id">@DiseaseTr.disTrList[disease.DiseaseName]</option>
+                }
+            </select>
+        </div><button class="btn btn-light mt-4" style="width: 100px;">Kaydet</button>
+    </form>
+    <div id="disInfo" style="display:none" class="flex-column w-25 h-100">
+        <img id="disImg" class="w-100" style="height: 40%;"/>
+        <div class="d-flex flex-column flex-grow-1 justify-content-center align-items-center w-100 overflow-auto px-2">
+            <h4 style="text-align: justify;" class="pb-4">Heading</h4>
+            <h6 style="text-align: justify;">Heading</h6>
+        </div>
+    </div>
+</section>
+
+<script>
+    const diseaseData = @Html.Raw(JsonConvert.SerializeObject(Model.diseaseList))
+	console.log(diseaseData);
+	var selectedValue = 0;
+
+	document.getElementById("disSelect").addEventListener('change', function () {
+		var selectedOption = this.options[this.selectedIndex];
+        selectedValue = selectedOption.value;
+		var selectedText = selectedOption.text;
+		console.log("Seçili Hastalık ID: " + selectedValue);
+
+        if(selectedValue != 0){
+            const disease = diseaseData.find(d => d.Id == selectedValue);
+
+            if(disease) {
+				document.getElementById("disInfo").style.display = "flex";
+                document.getElementById("disImg").src = `data:image/jpeg;base64,${disease.ImageName}`;
+                document.querySelector(".overflow-auto h4").innerText = selectedText;
+                document.querySelector(".overflow-auto h6").innerText = disease.DiseaseDetail;
+            }
+        }
+        else{
+            document.getElementById("disInfo").style.display = "none";
+            document.getElementById("disImg").src = "";
+            document.querySelector(".overflow-auto h4").innerText = "";
+            document.querySelector(".overflow-auto h6").innerText = "";
+        }
+        
+	});
+
+    function validateForm() {
+        var disSelect = document.getElementById("disSelect");
+        var selectedOptionDis = disSelect.options[disSelect.selectedIndex];
+        var selectedValueDis = selectedOptionDis.value;
+
+        if (selectedValue != 0 && selectedValueDis != 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+</script>

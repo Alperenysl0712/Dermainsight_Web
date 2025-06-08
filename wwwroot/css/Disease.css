@@ -1,0 +1,14 @@
+﻿.userInfo {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+    margin-bottom: 15px;
+}
+
+.userTexts {
+    font-size: 18px;
+    width: 350px;
+    height: 90%;
+}

@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+<link href="~/css/3DModels.css" rel="stylesheet" />
+@model List<Diseases>
+
+<section class="flex-grow-1 w-100 contentArea">
+    @foreach(Diseases disease in Model)
+    {
+        <a class="diseaseCard" asp-action="Show" asp-controller="_3DModels" asp-route-diseaseId="@disease.Id">
+            <h5 class="d-flex justify-content-center align-items-center h-100 w-75 text-center" style="margin: 0;">@DiseaseTr.disTrList[disease.DiseaseName]</h5>
+            <img class="w-25 h-100" style="border-radius: 0 30px 30px 0;" src="data:image/jpeg;base64,@disease.ImageName" alt="Hastalık Görseli" />
+        </a>
+    }
+</section>
+

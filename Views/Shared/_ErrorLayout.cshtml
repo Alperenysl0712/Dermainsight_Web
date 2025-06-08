@@ -1,0 +1,52 @@
+﻿<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<style>
+    body, html {
+        width: 100Vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: white;
+    }
+
+    .sectionBody {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+</style>
+@model Dermainsight.Models.Error
+
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Error</title>
+</head>
+
+<body>
+    <section class="d-flex justify-content-center align-items-center w-100" style="height: 100px;">
+        <h1 style="margin: 0;">Dermainsight</h1>
+    </section>
+    <section class="flex-grow-1 w-100 sectionBody pb-4">
+        <h2>Sunucuya Erişirken Hata Oluştu</h2>
+        <h3>Hata Kodu: @Model.StatusCode</h3>
+        <h4>@Model.Message</h4>
+        <h5>@Model.RequestedPath</h5>
+        <h6>@Model.ExceptionDetails</h6>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+<link href="~/css/MainMenu.css" rel="stylesheet" />
+<style>
+    .menu-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4 sütun */
+        gap: 15px;
+        width:100%;
+        margin: 0 auto;
+    }
+
+    .menu-cell {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 50px;
+    }
+</style>
+<section class="flex-grow-1 w-100 contentArea">
+    @if (CurrentUser.activeUser?.UserType == "Doktor")
+    {
+        <div class="menu-grid">
+            <!-- Satır 1 -->
+            <div class="menu-cell"><a class="menuItems" asp-action="Index" asp-controller="Ai">Cilt Analizi (YZ)</a></div>
+            <div class="menu-cell"></div>
+            <div class="menu-cell"><a class="menuItems" asp-action="Doctor" asp-controller="DiseaseInfo">Hastalık Bilgileri</a></div>
+            <div class="menu-cell"></div>
+
+            <!-- Satır 2 -->
+            <div class="menu-cell"></div>
+            <div class="menu-cell"><a class="menuItems" asp-action="Index" asp-controller="_3DModels">3D Modeller</a></div>
+            <div class="menu-cell"></div>
+            <div class="menu-cell"><a class="menuItems" asp-action="Index" asp-controller="Disease">Teşhis Ekle</a></div>
+        </div>
+    }
+
+
+    else
+    {
+        <a class="menuItems" asp-action="Index" asp-controller="_3DModels">3D Modeller</a>
+        <a class="menuItems" asp-action="Patient" asp-controller="DiseaseInfo" asp-route-patient_id="@CurrentUser.activeUser?.Id">Hastalık Bilgileri</a>
+    }
+</section>
+

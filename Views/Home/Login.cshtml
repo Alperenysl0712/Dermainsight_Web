@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    String? errorMsg = ViewBag.Errormessage;
+}
+
+<link href="~/css/login.css" rel="stylesheet" />
+
+<h1 class="mb-5">DermaInsight</h1>
+<form method="post">
+    <div class="userInfo">
+        <h4 style="margin: 0;">Kullanıcı Adı:</h4><input name="userName" class="form-text userTexts" type="text" />
+    </div>
+    <div class="userInfo">
+        <h4 style="margin: 0;">Şifre :</h4><input name="userPassword" class="form-text userTexts" type="password" />
+    </div>
+    <div class="buttons">
+        <button class="btn btn-light" type="submit">Giriş</button>
+        <a class="btn btn-light" asp-action="Register">Kayıt Ol</a>
+    </div>
+</form>
+
+<script>
+    var errMsg = '@Html.Raw(errorMsg)';
+
+    if(errMsg !== ""){
+        alert(errMsg);
+    }
+
+</script>

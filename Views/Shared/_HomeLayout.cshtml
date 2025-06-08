@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="~/css/layouthome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/Dermainsight.styles.css" asp-append-version="true" />
+</head>
+
+<body>
+    @{
+        Users? _user = CurrentUser.activeUser;
+
+    }
+    <section class="customNav">
+        <h5 style="margin: 0;">@($"{((_user!.UserType.Equals("Doktor")) ? ("Dr." + _user?.Name) : (_user?.Name))} {_user?.Surname} (ID: {_user?.Id})")</h5>
+        <h4 style="margin: 0;">Dermainsight</h4>
+        <a asp-action="Logout" asp-controller="MainMenu"><img width="50" height="50" src="~/img/logout.png" /></a>
+    </section>
+    @RenderBody()
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+
+</body>
+
+</html>

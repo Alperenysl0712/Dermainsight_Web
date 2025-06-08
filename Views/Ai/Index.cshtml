@@ -1,0 +1,97 @@
+﻿@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+@{
+	var jsonConverted = Json.Serialize(DiseaseTr.disTrList);
+}
+<link href="~/css/Ai.css" rel="stylesheet" />
+
+<section class="w-100 h-100 d-flex justify-content-center align-items-center flex-column">
+	<section class="uploadImgSec">
+		<h5>Hastalık Resmi</h5>
+		<input id="imageInput" class="form-control w-25" type="file" accept=".jpg,.jpeg,.png,image/*" />
+	</section>
+	<section class="resultSec">
+		<div class="row d-flex justify-content-center align-items-center h-100 w-100" style="margin: 0;padding: 0;">
+			<div class="col-4 text-center align-self-center">
+				<h5>Sorgulama Sonucu</h5>
+				<h6 id="resultLabel">Sonuç: </h6>
+			</div>
+			<div class="col-4 text-center align-self-center">
+				<h5>Hastalık Resmi</h5>
+				<img class="w-100" style="height: 400px;" id="selectedImage"/>
+			</div>
+			<div class="col-4 text-center align-self-center">
+				<h5>Hastalık Yüzdelikleri</h5>
+				<div class="w-100 d-flex justify-content-center">
+					<div style="max-width: 400px; width: 100%;">
+						<canvas id="resultChart" height="300"></canvas>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="validationSec">
+		<h6 class="text-center w-100">Teşhis doğru sonucu gösterdi mi?</h6>
+		<a class="btn btn-success" href="#" style="width: 100px;" id="saveDiseaseBtn">Evet</a>
+		<a class="btn btn-danger" href="#" style="width: 100px;" data-bs-toggle="modal" data-bs-target="#otherDiseaseModal">Hayır</a>
+	</section>
+</section>
+
+
+<div id="otherDiseaseModal" class="modal fade" role="dialog" tabindex="-1">
+	<div class="modal-dialog modal-xl" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">Hastalık Bilgileri</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+			</div>
+			<div class="modal-body text-center">
+				<div class="d-flex flex-wrap py-3" style="row-gap: 10px;column-gap:5px">
+					@foreach (var disease in DiseaseTr.disTrList)
+					{
+						<div class="form-check" style="border: dotted black 1px; border-radius:5px;width:calc(25% - 10px);padding:0 35px">
+							<input id="@($"radio-{disease.Key}")" value="@disease.Key" name="diseaseOption" class="form-check-input" type="radio" style="border: 1px solid black;" required />
+							<label for="@($"radio-{disease.Key}")" class="form-check-label">@disease.Key</label>
+						</div>
+					}
+					<div class="form-check" style="border: dotted black 1px; border-radius:5px;width:calc(25% - 10px);padding:0 35px">
+						<input id="otherRadio" name="diseaseOption" value="other" class="form-check-input" type="radio" style="border: 1px solid black;" required />
+						<label class="form-check-label" for="otherRadio">Diğer</label>
+					</div>
+				</div><input id="otherDiseaseInput" class="w-100 form-text" type="text" style="height: 50px;display:none" placeholder="Hastalık adını lütfen ingilizce giriniz." />
+			</div>
+			<div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Kapat</button><button class="btn btn-primary" id="saveOtherDisease" type="button">Kaydet</button></div>
+		</div>
+	</div>
+</div>
+
+<script>
+	var diseaseList = @Html.Raw(jsonConverted);
+
+		document.getElementById("otherRadio").addEventListener("change", function () {
+			const inputDiv = document.getElementById("otherDiseaseInput");
+			if (this.checked) {
+				inputDiv.style.display = "block";
+			} else {
+				inputDiv.style.display = "none";
+			}
+		});
+
+			document.querySelectorAll('input[name="diseaseOption"]').forEach(radio => {
+		radio.addEventListener("change", function () {
+			const inputDiv = document.getElementById("otherDiseaseInput");
+			inputDiv.style.display = (this.id === "otherRadio" && this.checked) ? "block" : "none";
+
+			if(inputDiv.style.display === "none") {
+				inputDiv.value = "";
+				inputDiv.innerHTML = "";
+			}
+
+		});
+	});
+
+
+</script>
+<script src="~/js/chart.js"></script>
+<script src="~/js/Ai.js"></script>
